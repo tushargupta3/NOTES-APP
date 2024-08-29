@@ -1,20 +1,23 @@
-## Installation
+<h2>🛠️ Installation Steps:</h2>
 
-1. **Clone the repository:**
+<p>1. clone the Reposity</p>
 
-    ```bash
-  
-    cd client
-    ```
+<p>2. reach the root directory</p>
 
-2. **Install dependencies:**
+```
+cd .\NotesApp\
+```
 
-    ```bash
-    npm install
-    ```
+<p>3. Add Node modules</p>
 
-3. **Start the development server:**
+```
+npm install
+```
 
-    ```bash
-    npm run dev
-    ```
+<p>4. you are good to Execute</p>
+
+<p>5. Run the program using</p>
+
+```
+npm run dev
+```
