@@ -5,7 +5,7 @@
 <p>2. reach the root directory</p>
 
 ```
-cd .\NotesApp\
+cd .client
 ```
 
 <p>3. Add Node modules</p>
