@@ -1,0 +1,88 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #DAE5F5;
+  
+}
+.left{
+width: 350px;
+}
+.right{
+  flex:1;
+}
+.BlackScreen{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2F2F2FBF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.AddNote{
+  position: absolute;
+  width: 50%;
+  height: 40%;
+  text-align: center;
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #c1c0c0;
+  border-radius:5.5px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #a8a7a7;
+  border-radius:5.5px;
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: #7c7c7c;
+  border-radius:5.5px;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #000000A1; 
+}
+
+
+@media (max-width: 750px){
+  .container{flex-direction: column;}
+  .left, .right {
+    width: 100%;
+    height: 100%;
+}
+.left {
+  display: block;
+}
+.right{
+  display: none;
+}
+.show-right .left {
+  display: none;
+}
+.show-right .right {
+  display: block;
+}
+
+.AddNote{
+  width: 90%;
+  height: 50%;
+}
+}  
+@media (max-width: 320px){
+.AddNote{
+  height: 50%;
+}
+}
